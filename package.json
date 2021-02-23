@@ -1,0 +1,27 @@
+{
+  "name": "swr-custom-hook",
+  "version": "0.0.0",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "vite",
+    "build": "tsc && vite build",
+    "serve": "vite preview",
+    "beauty": "prettier -w ./",
+    "type-check": "tsc"
+  },
+  "dependencies": {
+    "axios": "0.21.1",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "swr": "0.4.2"
+  },
+  "devDependencies": {
+    "@types/react": "17.0.2",
+    "@types/react-dom": "17.0.1",
+    "@vitejs/plugin-react-refresh": "1.1.0",
+    "prettier": "2.2.1",
+    "typescript": "4.1.2",
+    "vite": "2.0.1"
+  }
+}
